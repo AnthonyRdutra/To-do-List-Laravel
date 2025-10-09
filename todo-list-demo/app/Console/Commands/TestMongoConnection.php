@@ -3,7 +3,7 @@
 namespace App\Console\Commands;
 
 use Illuminate\Console\Command;
-use App\Models\Models\TestData;
+use App\Models\TestData;
 use Exception;
 
 class TestMongoConnection extends Command

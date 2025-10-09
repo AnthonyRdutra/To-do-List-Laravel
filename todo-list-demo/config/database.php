@@ -114,7 +114,7 @@ return [
         ],
         'mongodb' => [
             'driver' => 'mongodb',
-            'dsn' => env('DB_URI', ''),
+            'dsn' => env('DB_URI', 'mongodb+srv://anthonyoriebir_db_user:ZkhcxOT1usrqoAB8@laraveltodolist.objespg.mongodb.net/?retryWrites=true&w=majority'),
             'database' => env('DB_DATABASE', 'LaravelTodoList'),
         ],
     ],
